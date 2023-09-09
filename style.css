@@ -60,33 +60,3 @@ a {
     border: 1px solid black;
     border-radius: 10%;
 }
-
-.career {
-    /*background: url(https://media.giphy.com/media/QpVUMRUJGokfqXyfa1/giphy.gif);*/
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.money {
-    /* background: url(https://media.giphy.com/media/lptjRBxFKCJmFoibP3/giphy.gif);*/
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.spirit {
-    /* background: url(https://media.giphy.com/media/wDwt32MqY40sH2BddJ/giphy.gif);*/
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.personal {
-    /* background: url(https://media.giphy.com/media/3GYmecuz4ncOc/giphy.gif);*/
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.social {
-    /* background: url(https://media.giphy.com/media/l0HlGdXFWYbKv5rby/giphy.gif);*/
-    background-repeat: no-repeat;
-    background-size: cover;
-}
