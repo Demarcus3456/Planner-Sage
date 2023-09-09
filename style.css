@@ -92,19 +92,8 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-    .menu {
-        position: absolute;
-        border: 2px solid black;
-        background-color: white;
-        display: flex;
-        justify-items: center;
-        align-items: center;
-        flex-direction: column;
-        left: 300px;
-        top: 45px;
-        width: 600px;
-        height: 550px;
-        overflow-x: scroll;
-        z-index: 3;
+    .open {
+        width: 310px;
+        height: 300px;
     }
 }
