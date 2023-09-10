@@ -48,8 +48,12 @@ a {
 .social {
     width: 200px;
     height: 150px;
-    border: 2px solid red;
     text-align: center;
+}
+
+.career {
+    background-image: url(images/code.gif);
+    background-size: cover;
 }
 
 .overlay {
