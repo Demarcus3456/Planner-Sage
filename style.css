@@ -56,6 +56,27 @@ a {
     background-size: cover;
 }
 
+.personal {
+    background-image: url(images/self.webp);
+    background-size: cover;
+}
+
+.spirit {
+    background-image: url(images/spirit.webp);
+    background-size: cover;
+}
+
+.money {
+    background-image: url(images/money.webp);
+    background-size: cover;
+}
+
+.social {
+    background-image: url(images/social.webp);
+    background-size: cover;
+}
+
+
 .overlay {
     position: fixed;
     width: 100%;
