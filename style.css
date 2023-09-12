@@ -45,7 +45,8 @@ a {
 .personal,
 .spirit,
 .money,
-.social {
+.social,
+.fun {
     width: 200px;
     height: 150px;
     text-align: center;
@@ -76,6 +77,10 @@ a {
     background-size: cover;
 }
 
+.fun {
+    background-image: url(images/anime.gif);
+    background-size: cover;
+}
 
 .overlay {
     position: fixed;
