@@ -7,3 +7,28 @@
 body {
     background-color: lightgoldenrodyellow;
 }
+
+img {
+    width: 250px;
+    height: 175px;
+    border: 1px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
+.layout {
+    padding: 10px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+/* Sections */
+#games,
+#books,
+#shows {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
