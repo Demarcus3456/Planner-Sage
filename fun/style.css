@@ -6,6 +6,7 @@
 
 body {
     background-color: lightgoldenrodyellow;
+    text-align: center;
 }
 
 img {
@@ -18,10 +19,39 @@ img {
     display: none;
 }
 
-.layout {
+.rotate {
+    transform: rotateY(180deg);
+}
+
+.trastion {
+    transition: 2.5s;
+}
+
+/* Card Layout */
+.layout,
+.card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 288px;
+    height: 220px;
     padding: 10px;
     background-color: white;
     border: 3px solid black;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    background-color: aquamarine;
+}
+
+.info {
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 10%;
+    background-color: lightcyan;
+    color: black;
 }
 
 /* Sections */
