@@ -30,9 +30,7 @@ img {
 /* Card Layout */
 .layout,
 .card-back {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
     width: 288px;
     height: 220px;
     padding: 10px;
@@ -43,6 +41,7 @@ img {
 }
 
 .card-back {
+    margin-top: -222px;
     background-color: aquamarine;
 }
 
@@ -58,7 +57,20 @@ img {
 #games,
 #books,
 #shows {
+    margin: 10px;
     text-align: center;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#shows {
+    border: 5px solid black;
+}
+
+/* Settings */
+.settings {
+    margin: 42% auto;
+    width: 100px;
 }
