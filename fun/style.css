@@ -71,6 +71,8 @@ img {
 
 /* Settings */
 .settings {
-    margin: 42% auto;
-    width: 100px;
+    margin: 145px 160px;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
 }
