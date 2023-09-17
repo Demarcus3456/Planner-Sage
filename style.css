@@ -105,3 +105,67 @@ a {
     border: 1px solid black;
     border-radius: 10%;
 }
+
+/* Task Tracker */
+.goals {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.task h2 {
+    font-size: 15px;
+}
+
+.goal-img {
+    border: 3px solid green;
+    width: 100%;
+    height: 75px;
+}
+
+.todo {
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    color: black;
+    background-color: azure;
+    width: 350px;
+    height: 500px;
+}
+
+.task {
+    font-weight: bolder;
+    border: 3px solid blue;
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.due-today {
+    border: 4px solid black;
+    width: 300px;
+}
+
+.main {
+    border: 2px solid black;
+    width: 450px;
+    height: 400px;
+    background-color: azure;
+    position: absolute;
+    top: 130px;
+    left: 370px;
+}
+
+.progress {
+    border: 2px solid red;
+    width: 200px;
+    height: 20px;
+}
