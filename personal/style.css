@@ -8,6 +8,10 @@ body {
     background-color: blanchedalmond;
 }
 
+li {
+    list-style: none;
+}
+
 .hidden {
     display: none;
 }
@@ -24,11 +28,8 @@ body {
 
 /* Conter */
 .counter {
-    margin: 5px 0 0 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin: 10px auto;
     border: 2px solid black;
     width: 350px;
 }
@@ -38,8 +39,14 @@ body {
     border: 4px solid whitesmoke;
 }
 
+.time,
+.buttons {
+    margin-top: 10px;
+}
+
 /* Urge */
 .urge {
+    margin: 10px auto;
     text-align: center;
     margin-top: 5px;
     border: 2px solid green;
