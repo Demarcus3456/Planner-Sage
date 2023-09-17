@@ -7,3 +7,22 @@
 body {
     background-color: blanchedalmond;
 }
+
+/* Conter */
+.counter {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 350px;
+}
+
+.time {
+    font-size: 70px;
+    border: 4px solid whitesmoke;
+}
