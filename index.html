@@ -38,15 +38,24 @@
 
     <!-- Goals -->
     <button class="goals">Goals</button>
-    <div class="todo hidden">
+    <div class="todo ">
         <h1>Goals Tracker</h1>
-        <div class="tasks">
-            <div class="task">
-                <h2>Career</h2>
-                <img class="goal-img" src='#'>
-                <button>Tasks</button>
-                <div class="progress  completion-bar"><span>0</span>%</div>
+        <ul class="goals-list" id="goals-list">
+        </ul>
+        <button class="add-goal">Add goal</button>
+    </div>
+
+    <!-- Goals Settings -->
+    <div class="todo-settings hidden">
+        <div class="goal-settings">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" for="name" class="goal-name">
             </div>
+            <div>
+                <input type="file" for="goal-img">
+            </div>
+            <button class="goal-added">Add</button>
         </div>
     </div>
 
@@ -57,7 +66,7 @@
 
 
 
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
     <script src="three.js"></script>
 </body>
 
