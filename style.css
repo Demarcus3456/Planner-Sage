@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-h2 {
-    font-size: 10px;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -55,31 +51,37 @@ a {
 .career {
     background-image: url(images/code.gif);
     background-size: cover;
+    margin-right: 50%;
 }
 
 .personal {
     background-image: url(images/self.webp);
     background-size: cover;
+    margin-left: 50%;
 }
 
 .spirit {
     background-image: url(images/spirit.webp);
     background-size: cover;
+    margin-right: 50%;
 }
 
 .money {
     background-image: url(images/money.webp);
     background-size: cover;
+    margin-left: 50%;
 }
 
 .social {
     background-image: url(images/social.webp);
     background-size: cover;
+    margin-right: 50%;
 }
 
 .fun {
     background-image: url(images/anime.gif);
     background-size: cover;
+    margin-left: 50%;
 }
 
 .overlay {
