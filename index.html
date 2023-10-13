@@ -38,7 +38,7 @@
 
     <!-- Goals -->
     <button class="goals">Goals</button>
-    <div class="todo ">
+    <div class="todo hidden">
         <h1>Goals Tracker</h1>
         <ul class="goals-list" id="goals-list">
         </ul>
@@ -52,9 +52,6 @@
                 <label for="name">Name:</label>
                 <input type="text" for="name" class="goal-name">
             </div>
-            <div>
-                <input type="file" for="goal-img">
-            </div>
             <button class="goal-added">Add</button>
         </div>
     </div>
@@ -63,6 +60,30 @@
     <div class="timeline">
         <h1>Big Achivements</h1>
     </div>
+
+    <!-- Task Window -->
+    <div class="todo-list hidden">
+        <div class="tabs">
+            <button>Habits</button>
+            <button>Tasks</button>
+        </div>
+        <div class="habis">
+            <ul class="habits-list">
+                <li class="list-item">
+                    <h3>Reading</h3>
+                    <input type='checkbox'>
+                </li>
+            </ul>
+        </div>
+        <div class="tasks">
+            <ul class="tasks-list">
+
+            </ul>
+        </div>
+        <button>Add</button>
+    </div>
+
+    <div class="overlay hidden"></div>
 
 
 

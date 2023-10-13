@@ -124,7 +124,8 @@ a {
 }
 
 .todo,
-.todo-settings {
+.todo-settings,
+.todo-list {
     text-align: center;
     position: absolute;
     top: 70px;
@@ -154,8 +155,16 @@ a {
     gap: 10px;
 }
 
+.add-habit {
+    background-color: lightskyblue;
+}
+
 .tasks {
     margin: 15px 0;
+}
+
+.delete {
+    margin-bottom: 10px;
 }
 
 .goal-settings {
@@ -189,6 +198,23 @@ a {
     border: 2px solid red;
     width: 200px;
     height: 20px;
+}
+
+/* Habits */
+.tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 /* Big achivements */
