@@ -14,14 +14,53 @@ img {
     height: 200px;
 }
 
-.container {
-    background-color: azure;
-    margin: 10px;
-    padding: 5px;
-    border: 1px solid black;
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links li {
+    border: 2px solid black;
+    background-color: white;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+.nav-links li:hover {
+    background-color: greenyellow;
+    transition: 3s;
+}
+
+/* Resorces */
+#resoures {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 25px;
 }

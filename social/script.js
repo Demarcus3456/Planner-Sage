@@ -19,13 +19,13 @@ start.addEventListener('click', function () {
 
 // Opens notes
 noteBtn.addEventListener('click', function () {
-    notes.classList.remove('hidden');
+    notes.classList.toggle('hidden');
 });
 
 // Opens resonator section
 resonatorLessons.addEventListener('click', function () {
     partsMenu.classList.remove('hidden');
-    lessons.classList.add('hidden')
+    lessons.classList.add('hidden');
 });
 
 // Opens parts menu
