@@ -19,12 +19,17 @@ a {
     color: black;
 }
 
+
 /* Menu */
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.navbar-btn {
+    display: none;
 }
 
 .nav-links {
@@ -59,8 +64,30 @@ a {
     gap: 25px;
 }
 
+#resoures img {
+    width: 400px;
+}
+
 .container {
     border: 2px solid black;
     padding: 10px;
     margin: 25px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 400px) {
+    .hidden {
+        display: none;
+    }
+
+    .navbar-btn {
+        display: block;
+        position: relative;
+    }
 }
