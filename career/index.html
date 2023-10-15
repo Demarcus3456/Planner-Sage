@@ -5,28 +5,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Career Roadmap</title>
+    <title>Home</title>
 </head>
 
 <body>
-    <a href="/index.html"><button>Back</button></a>
-    <h1>Career Roadmap</h1>
-    <div>
-        <h2>Typing</h2>
-        <a href="https://www.edclub.com/sportal/"><button>Start</button></a>
+    <canvas id="canvas"></canvas>
+
+    <!-- Menu -->
+
+    <button class="open">Menu</button>
+    <nav class="menu hidden">
+        <button class="close">X</button>
+        <div class="career">
+            <button><a href="career/index.html">Career</a></button>
+        </div>
+        <div class="personal">
+            <button><a href="personal/index.html">Personal</a></button>
+        </div>
+        <div class="spirit">
+            <button><a href="spirit/index.html">Spiritual</a></button>
+        </div>
+        <div class="money">
+            <button><a href="money/index.html">Finanical</a></button>
+        </div>
+        <div class="social">
+            <button><a href="social/index.html">Relationships</a></button>
+        </div>
+        <div class="fun">
+            <button><a href="fun/index.html">Entertainment</a></button>
+        </div>
+    </nav>
+
+    <!-- Goals -->
+    <button class="goals">Goals</button>
+    <div class="todo hidden">
+        <h1>Goals Tracker</h1>
+        <ul class="goals-list" id="goals-list">
+        </ul>
+        <button class="add-goal">Add goal</button>
     </div>
-    <div>
-        <h2>FrontEnd</h2>
-        <a href="https://roadmap.sh/frontend"><button>Start</button></a>
+
+    <!-- Goals Settings -->
+    <div class="todo-settings hidden">
+        <div class="goal-settings">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" for="name" class="goal-name">
+            </div>
+            <button class="goal-added">Add</button>
+        </div>
     </div>
 
-    <!-- Add a note pad -->
+    <!-- Timeline -->
+    <div class="timeline">
+        <h1>Big Achivements</h1>
+        <div>
+            <h2>Career</h2>
+        </div>
+        <div>
+            <h2>Spiritual</h2>
+        </div>
+        <div>
+            <h2>Finanical</h2>
+        </div>
+        <div>
+            <h2>Relationships</h2>
+        </div>
+        <div>
+            <h2>Personal</h2>
+        </div>
+    </div>
+
+    <!-- Task Window -->
+    <div class="todo-list hidden">
+        <div class="tabs">
+            <button>Habits</button>
+            <button>Tasks</button>
+        </div>
+        <div class="habis">
+            <ul class="habits-list">
+                <li class="list-item">
+                    <h3>Reading</h3>
+                    <input type='checkbox'>
+                </li>
+            </ul>
+        </div>
+        <div class="tasks">
+            <ul class="tasks-list">
+
+            </ul>
+        </div>
+        <button>Add</button>
+    </div>
+
+    <div class="overlay hidden"></div>
 
 
 
-
-
-
+    <script src="script.js" type="module"></script>
+    <script src="three.js"></script>
 </body>
 
 </html>
