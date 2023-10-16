@@ -69,9 +69,9 @@ a {
 }
 
 .container {
+    width: 100%;
     border: 2px solid black;
     padding: 10px;
-    margin: 25px;
 }
 
 .flex {
@@ -90,4 +90,15 @@ a {
         display: block;
         position: relative;
     }
+
+    #resoures img {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        border: 2px solid black;
+        padding: 10px;
+    }
+
 }
