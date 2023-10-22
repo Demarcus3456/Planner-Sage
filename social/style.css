@@ -61,3 +61,46 @@ img {
     height: 30px;
     padding: 5px;
 }
+
+/* Social Freedom */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.popupvideo {
+    width: 75px;
+    height: 75px;
+}
+
+/* Weeks */
+.weeks {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid black;
+    width: 600px;
+}
+
+.weeksbtn {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+}
+
+.weeksbtn:hover {
+    background-color: lightgreen;
+    color: blue;
+}
+
+.weeksvideo {
+    width: 550px;
+}
+
+/* Week 1 */
