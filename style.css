@@ -108,6 +108,21 @@ a {
     border-radius: 10%;
 }
 
+/* Motivation */
+.motivate {
+    position: absolute;
+    background-color: azure;
+    top: 100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 20px;
+    border: 5px solid white;
+    opacity: 50%;
+    width: auto;
+    height: 400px;
+}
+
 /* Task Tracker */
 .goals {
     position: absolute;
