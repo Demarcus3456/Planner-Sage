@@ -8,6 +8,10 @@ a {
     color: black;
 }
 
+.container {
+    text-align: center;
+}
+
 /* Menu */
 
 .open {
@@ -121,6 +125,16 @@ a {
     opacity: 50%;
     width: auto;
     height: 400px;
+}
+
+.placeholder {
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 330px;
+}
+
+.adding {
+    opacity: 100%;
 }
 
 /* Task Tracker */
