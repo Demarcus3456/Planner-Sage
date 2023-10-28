@@ -74,7 +74,6 @@ function goalListItem(item) {
     });
 };
 
-
 // Opening menu
 open.addEventListener('click', function () {
     menu.classList.remove('hidden');

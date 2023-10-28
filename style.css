@@ -12,16 +12,14 @@ a {
     text-align: center;
 }
 
-/* Menu */
-
-.open {
+.icon {
     position: absolute;
-    width: 60px;
-    height: 20px;
-    top: 0;
-    left: 0;
+    top: 610px;
+    left: 10px;
+    cursor: pointer;
 }
 
+/* Menu */
 .close {
     width: 20px;
     background-color: lemonchiffon;
