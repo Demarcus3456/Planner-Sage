@@ -14,8 +14,8 @@ a {
 
 .icon {
     position: absolute;
-    top: 610px;
-    left: 10px;
+    top: 570px;
+    left: 30px;
     cursor: pointer;
 }
 
@@ -23,7 +23,6 @@ a {
 .close {
     width: 20px;
     height: 50px;
-    background-color: lemonchiffon;
 }
 
 .menu {
@@ -46,36 +45,6 @@ a {
     width: 50px;
     height: 50px;
     text-align: center;
-}
-
-.career {
-    background-image: url(images/code.gif);
-    background-size: cover;
-}
-
-.personal {
-    background-image: url(images/self.webp);
-    background-size: cover;
-}
-
-.spirit {
-    background-image: url(images/spirit.webp);
-    background-size: cover;
-}
-
-.money {
-    background-image: url(images/money.webp);
-    background-size: cover;
-}
-
-.social {
-    background-image: url(images/social.webp);
-    background-size: cover;
-}
-
-.fun {
-    background-image: url(images/anime.gif);
-    background-size: cover;
 }
 
 .overlay {

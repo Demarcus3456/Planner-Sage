@@ -11,14 +11,13 @@ const app = initializeApp(appSettings);
 const database = getDatabase(app);
 
 const goalsInDB = ref(database, 'goals');
-const habitssInDB = ref(database, 'habits');
-
 
 const menu = document.querySelector('.menu');
 const open = document.querySelector('.open');
 const close = document.querySelector('.close');
 const goals = document.querySelector('.goals');
 const overlay = document.querySelector('overlay');
+let svgMenu = document.getElementById('mysvg');
 
 const todo = document.querySelector('.todo');
 const todoSettings = document.querySelector('.todo-settings');
@@ -28,9 +27,7 @@ const goalAdded = document.querySelector('.goal-added');
 const goalNameInput = document.querySelector('.goal-name');
 const goalsList = document.getElementById('goals-list');
 
-const habitsTab = document.querySelector('.todo-list');
-const addHabit = document.querySelectorAll('.add-habit');
-
+// Creates goals
 function goalListItem(item) {
     let itemID = item[0]
     let itemValue = item[1]
@@ -77,15 +74,13 @@ function goalListItem(item) {
 // Opening menu
 open.addEventListener('click', function () {
     menu.classList.remove('hidden');
-    overlay.classList.remove('hidden');
-    open.classList.add('hidden');
+    svgMenu.style.display = 'none';
 });
 
 // Closing menu
 close.addEventListener('click', function () {
     menu.classList.add('hidden');
-    overlay.classList.add('hidden');
-    open.classList.remove('hidden');
+    svgMenu.style.display = 'block';
 });
 
 // Opening goals tracker
