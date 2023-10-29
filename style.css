@@ -28,7 +28,7 @@ a {
 .menu {
     position: absolute;
     top: 570px;
-    left: 80px;
+    left: 60px;
     display: flex;
     flex-direction: row;
     width: 100%;
