@@ -22,18 +22,16 @@ a {
 /* Menu */
 .close {
     width: 20px;
+    height: 50px;
     background-color: lemonchiffon;
 }
 
 .menu {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 570px;
+    left: 80px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: row;
     width: 100%;
     height: 100%;
     z-index: 3;
@@ -45,45 +43,39 @@ a {
 .money,
 .social,
 .fun {
-    width: 200px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     text-align: center;
 }
 
 .career {
     background-image: url(images/code.gif);
     background-size: cover;
-    margin-right: 50%;
 }
 
 .personal {
     background-image: url(images/self.webp);
     background-size: cover;
-    margin-left: 50%;
 }
 
 .spirit {
     background-image: url(images/spirit.webp);
     background-size: cover;
-    margin-right: 50%;
 }
 
 .money {
     background-image: url(images/money.webp);
     background-size: cover;
-    margin-left: 50%;
 }
 
 .social {
     background-image: url(images/social.webp);
     background-size: cover;
-    margin-right: 50%;
 }
 
 .fun {
     background-image: url(images/anime.gif);
     background-size: cover;
-    margin-left: 50%;
 }
 
 .overlay {
