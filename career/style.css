@@ -19,6 +19,10 @@ a {
     color: black;
 }
 
+.hidden {
+    display: none;
+}
+
 
 /* Menu */
 .menu {
@@ -28,11 +32,11 @@ a {
     align-items: center;
 }
 
-.navbar-btn {
-    display: none;
-}
-
 .nav-links {
+    position: absolute;
+    top: 600px;
+    left: 0;
+    right: 0;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -82,9 +86,6 @@ a {
 }
 
 @media (max-width: 400px) {
-    .hidden {
-        display: none;
-    }
 
     .navbar-btn {
         display: block;
