@@ -12,19 +12,7 @@ a {
     text-align: center;
 }
 
-.icon {
-    position: absolute;
-    top: 570px;
-    left: 30px;
-    cursor: pointer;
-}
-
 /* Menu */
-.close {
-    width: 20px;
-    height: 50px;
-}
-
 .menu {
     position: absolute;
     top: 570px;
@@ -212,10 +200,4 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
-
-/* Big achivements */
-.timeline {
-    text-align: center;
-    background-color: peachpuff;
 }

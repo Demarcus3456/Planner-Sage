@@ -12,12 +12,8 @@ const database = getDatabase(app);
 
 const goalsInDB = ref(database, 'goals');
 
-const menu = document.querySelector('.menu');
-const open = document.querySelector('.open');
-const close = document.querySelector('.close');
 const goals = document.querySelector('.goals');
 const overlay = document.querySelector('overlay');
-let svgMenu = document.getElementById('mysvg');
 
 const todo = document.querySelector('.todo');
 const todoSettings = document.querySelector('.todo-settings');
@@ -70,18 +66,6 @@ function goalListItem(item) {
         remove(exactLocationOfItemInDB);
     });
 };
-
-// Opening menu
-open.addEventListener('click', function () {
-    menu.classList.remove('hidden');
-    svgMenu.style.display = 'none';
-});
-
-// Closing menu
-close.addEventListener('click', function () {
-    menu.classList.add('hidden');
-    svgMenu.style.display = 'block';
-});
 
 // Opening goals tracker
 goals.addEventListener('click', function () {
