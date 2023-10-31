@@ -36,10 +36,27 @@ part1Btn.addEventListener('click', function () {
 // Social Freedom
 const unleashed = document.querySelector('.free');
 const freedomPage = document.querySelector('.freedom');
+const freedomMenu = document.querySelector('.f-menu');
+const weeks = document.getElementById('weeks');
+const week1btn = document.querySelector('.week-1-btn');
+const week1 = document.querySelector('.week-1');
 
 // Opens page
 unleashed.addEventListener('click', function () {
     freedomPage.classList.remove('hidden');
     lessons.classList.add('hidden');
-
 });
+
+// Opens week 1 section
+week1btn.addEventListener('click', function () {
+    week1.classList.remove('hidden');
+    weeks.style.display = 'none';
+    freedomMenu.classList.remove('hidden')
+});
+
+// Opens menu
+freedomMenu.addEventListener('click', function () {
+    freedomMenu.classList.add('hidden');
+    week1.classList.add('hidden');
+    weeks.style.display = 'flex';
+})

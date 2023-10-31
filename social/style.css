@@ -14,6 +14,11 @@ img {
     height: 200px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .hidden {
     display: none;
 }
@@ -21,7 +26,7 @@ img {
 #intro {
     border: 3px solid black;
     background-color: white;
-    width: 430px;
+    width: 100%;
     padding: 10px;
     margin-top: 150px;
 }
@@ -87,27 +92,29 @@ img {
 
 /* Weeks */
 .weeks {
-    background-color: white;
+    background-color: black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
     border: 2px solid black;
-    width: 500px;
+    width: 100%;
+    height: 440px;
 }
 
 .weeksbtn {
-    text-decoration: none;
     color: black;
-    border: 1px solid black;
+    border: 1px solid red;
+    background-color: lightblue;
+    padding: 5px;
 }
 
 .weeksvideo {
     border: 3px solid black;
     background-color: white;
     padding: 10px;
-    width: 430px;
+    width: 100%;
 }
 
 /* Week 1 */
