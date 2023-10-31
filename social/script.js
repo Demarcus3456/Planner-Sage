@@ -1,15 +1,8 @@
 'use strict';
 
-const lessons = document.querySelector('.container');
-const start = document.querySelector('.start');
 const noteBtn = document.querySelector('.note');
 const notes = document.querySelector('.notes');
 
-// Starts Lessons
-start.addEventListener('click', function () {
-    lessons.classList.remove('hidden');
-    start.classList.add('hidden');
-});
 
 // Opens notes
 noteBtn.addEventListener('click', function () {
