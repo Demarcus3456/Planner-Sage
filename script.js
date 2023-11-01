@@ -70,7 +70,6 @@ function goalListItem(item) {
 // Opening goals tracker
 goals.addEventListener('click', function () {
     todo.classList.remove('hidden');
-    overlay.classList.remove('hidden');
 });
 
 // Open add goal settings
@@ -90,6 +89,7 @@ goalAdded.addEventListener('click', function () {
     goalNameInput.value = '';
 });
 
+// Shows goals on page
 onValue(goalsInDB, function (snapshot) {
     let goalsArray = Object.entries(snapshot.val())
 

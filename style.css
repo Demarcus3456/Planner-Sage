@@ -15,7 +15,7 @@ a {
 /* Menu */
 .menu {
     position: absolute;
-    top: 570px;
+    top: 630px;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -121,6 +121,7 @@ a {
     background-color: azure;
     width: 350px;
     height: 500px;
+    z-index: 2;
 }
 
 .todo {
