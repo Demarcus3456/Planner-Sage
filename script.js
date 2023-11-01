@@ -19,7 +19,9 @@ const todo = document.querySelector('.todo');
 const todoSettings = document.querySelector('.todo-settings');
 const goalBtn = document.querySelector('.add-goal');
 
+
 const goalAdded = document.querySelector('.goal-added');
+const goalImgInput = document.querySelector('.goal-image');
 const goalNameInput = document.querySelector('.goal-name');
 const goalsList = document.getElementById('goals-list');
 
