@@ -14,6 +14,7 @@ a {
     color: black;
 }
 
+
 video {
     position: absolute;
     top: 100px;
@@ -24,6 +25,10 @@ video {
     background-color: red;
     padding: 10px;
     width: 370px;
+}
+
+.hidden {
+    display: none;
 }
 
 /* Menu */

@@ -24,6 +24,7 @@ const part23 = document.getElementById('p-23');
 
 const mainVideo = document.getElementById('main-video');
 
+
 // Video list
 part1.addEventListener('click', function () {
     mainVideo.src = 'https://www.dropbox.com/s/l1y0o6cn7nx20c5/1.%20Introduction%20to%20Gym%20Unleashed.mp4?raw=1';
