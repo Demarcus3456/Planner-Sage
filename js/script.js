@@ -21,7 +21,6 @@ const goalBtn = document.querySelector('.add-goal');
 
 
 const goalAdded = document.querySelector('.goal-added');
-const goalImgInput = document.querySelector('.goal-image');
 const goalNameInput = document.querySelector('.goal-name');
 const goalsList = document.getElementById('goals-list');
 
@@ -85,6 +84,13 @@ goalAdded.addEventListener('click', function () {
     todoSettings.classList.add('hidden');
 
     const userInputValue = goalNameInput.value;
+
+    const imgValue = document.querySelector('.goal-image');
+    const userImgInput = imgValue.value;
+
+    let userImgInputName = userImgInput.replace("C:\\fakepath\\", "images/");
+
+    console.log(userImgInputName)
 
     push(goalsInDB, userInputValue);
 
