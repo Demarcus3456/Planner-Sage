@@ -15,7 +15,6 @@ a {
     color: rgb(255, 255, 255);
 }
 
-
 video {
     position: absolute;
     top: 100px;
@@ -50,6 +49,13 @@ video {
 }
 
 /* Gym Lessions */
+.title {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
 .video-list {
     background-color: lightslategray;
     position: absolute;

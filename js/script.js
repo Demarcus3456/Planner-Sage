@@ -70,7 +70,7 @@ function goalListItem(item) {
 
 // Opening goals tracker
 goals.addEventListener('click', function () {
-    todo.classList.remove('hidden');
+    todo.classList.toggle('hidden');
 });
 
 // Open add goal settings
